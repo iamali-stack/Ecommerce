@@ -1,5 +1,5 @@
 import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 import Home from './components/Home/Home'
 import Categories from './components/Categories/Categories'
@@ -20,7 +20,7 @@ import { Toaster } from "react-hot-toast";
 
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Layout />, 
@@ -41,13 +41,14 @@ const router = createBrowserRouter([
       { path: 'forgetpassword', element: <ForegetPassword /> },
       { path: 'resetpassword', element: <ResetPassword /> },
       { path: 'verifyresetcode', element: <VerifyRestCode /> },
-       {
-    path: '*',
-    element: <NotFound />,
-  },
-
-    ]}
-])
+      { path: '*', element: <NotFound /> },
+      ],
+    },
+  ],
+  {
+    basename: '/Ecommerce',
+  }
+);
 
 function App() {
   return (
