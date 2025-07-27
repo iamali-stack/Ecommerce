@@ -11,11 +11,15 @@ export default function Register() {
     name: Yup.string().required('name is required').min(3, 'min 3 characters').max(6, 'max 6 letters'),
     email: Yup.string().required('email is required').email('email must be a valid email'),
     password: Yup.string()
-      .required('password is required')
-      .matches(/^[A-Z][a-z0-9]{4,10}$/, 'password must contain at least 4 characters, one uppercase letter'),
-    rePassword: Yup.string()
-      .required('confirm password is required')
-      .oneOf([Yup.ref('password')], 'Passwords must match'),
+  .required('Password is required')
+  .matches(
+    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
+    'Password must be at least 8 characters, include uppercase, lowercase, number, and special character'
+  ),
+rePassword: Yup.string()
+  .required('Confirm password is required')
+  .oneOf([Yup.ref('password')], 'Passwords must match'),
+
     phone: Yup.string()
       .required('phone is required')
       .matches(/^01[0125][0-9]{8}$/, 'phone must be a valid phone number'),
