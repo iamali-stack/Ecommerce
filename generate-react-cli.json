@@ -1,0 +1,22 @@
+{
+  "path": "src",
+  "fileExtension": "tsx",
+  "styleExtension": "module.css",
+  "usesTypeScript": true,
+  "usesStyledComponents": false,
+  "testLibrary": "None",
+  "customTemplates": {
+    "component": ".templates/component"
+  },
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    }
+  },
+  "usesCssModule": true,
+  "cssPreprocessor": "css"
+}
