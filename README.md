@@ -1,6 +1,5 @@
-Here’s a polished, professional version of your `README.md`, structured for clarity and improved tone. I've also added a prompt placeholder where you can insert screenshots once you're ready:
 
----
+---ةةة
 
 # 🛍️ E-Commerce App
 
@@ -114,7 +113,7 @@ No environment variables are required for local development. If integrating a ba
 
 ![Uploading Screenshot 2025-07-27 at 5.41.43 PM.png…]()
 
-<img width="1440" height="6042" alt="screencapture-iamali-stack-github-io-Ecommerce-2025-07-27-17_42_25" src="https://github.com/user-attachments/assets/10ceb215-b8c3-401a-bf42-43c841f03d96" />
+
 
 ```
 📷 Insert screenshots here (home page, product view, cart, checkout, etc.)
