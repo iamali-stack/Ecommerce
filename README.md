@@ -110,11 +110,14 @@ No environment variables are required for local development. If integrating a ba
 
 ## 📸 Screenshots
 
-![Uploading Screenshot 2025-07-27 at 5.41.43 PM.png…]()
 
 
+<img width="1439" height="781" alt="Screenshot 2025-07-27 at 6 12 15 PM" src="https://github.com/user-attachments/assets/69629012-043a-4b8b-a057-46bd681afe68" />
+```<img width="1439" height="723" alt="Screenshot 2025-07-27 at 6 13 01 PM" src="https://github.com/user-attachments/assets/4b0802e6-67b0-47ad-85cf-4dda93dac3a7" />
+<img width="1439" height="615" alt="Screenshot 2025-07-27 at 6 13 54 PM" src="https://github.com/user-attachments/assets/881519e5-0696-439f-a01a-ba575dc815a6" />
+<img width="1439" height="324" alt="Screenshot 2025-07-27 at 6 14 28 PM" src="https://github.com/user-attachments/assets/59dcaeb2-d077-49c1-b3d4-f983874316b3" />
 
-```
+
 📷 Insert screenshots here (home page, product view, cart, checkout, etc.)
 ```
 
